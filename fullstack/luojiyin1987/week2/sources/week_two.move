@@ -11,6 +11,9 @@ module admin::week_two {
     use sui::balance::{Self, Balance};
     use sui::dynamic_field;
     use std::ascii::{String as AString};
+  
+
+
 
     //==============================================================================================
     // Constants
@@ -127,7 +130,7 @@ module admin::week_two {
     public entry fun add_coin_to_folder<T>(
         folder: &mut Folder,
         coin: Coin<T>,
-        ctx: &mut TxContext
+        _ctx: &mut TxContext
     ){
         let type_name = type_name::get<T>();
         let amount = coin::value(&coin);
@@ -136,7 +139,7 @@ module admin::week_two {
             dynamic_field::add(&mut folder.id, type_name, coin::into_balance(coin));
             total = amount;
         }else{
-            let mut old_value = dynamic_field::borrow_mut<TypeName, Balance<T>>(&mut folder.id, type_name);
+            let old_value = dynamic_field::borrow_mut<TypeName, Balance<T>>(&mut folder.id, type_name);
             balance::join(old_value, coin::into_balance(coin));
             total = balance::value(old_value);
         };
