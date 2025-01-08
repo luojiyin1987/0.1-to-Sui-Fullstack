@@ -152,6 +152,7 @@ module admin::week_two {
         let type_name = type_name::get<T>();
         let amount = coin::value(&coin);
         let total;
+        //  动态字段 可以存储不同类型的代币 不需要预先定义所有可能的代币类型
         if(!dynamic_field::exists_(&folder.id, type_name)){
             dynamic_field::add(&mut folder.id, type_name, coin::into_balance(coin));
             total = amount;
