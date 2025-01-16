@@ -10,7 +10,9 @@
 ## 作业
 - [x] 第一周仓库: https://github.com/huzhengen/sui-dapp-demo-1
 - [x] 第一周截图: ![第一周截图](./week1/week1.png)
-- [] 第二周:
+- [x] 第二周仓库: https://github.com/huzhengen/sui-dapp-demo-1
+- [x] 第二周截图: ![第二周截图](./week2/week2_home.png)
+- [x] 第二周截图: ![第二周截图](./week2/week2_user.png)
 - [] 第三周:
 - [] 第四周:
 
@@ -28,7 +30,9 @@
 
 - [x] 第一周:![学习记录截图1](./images/week1_metting_1.PNG)
 - [x] 第一周:![学习记录截图2](./images/week1_metting_2.PNG)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图1](./images/week2_1.png)
+- [x] 第二周:![学习记录截图2](./images/week2_2.png)
+- [x] 第二周:![学习记录截图3](./images/week2_3.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 

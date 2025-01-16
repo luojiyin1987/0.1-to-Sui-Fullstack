@@ -4,7 +4,7 @@
  * @Author: Hesin
  * @Date: 2025-01-03 21:01:15
  * @LastEditors: Hesin
- * @LastEditTime: 2025-01-04 12:34:06
+ * @LastEditTime: 2025-01-06 18:32:42
  */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
@@ -29,6 +29,10 @@ module.exports = {
   theme: {
     // rest of the code
     extend: {
+      height: {
+        'screen-minus-80': 'calc(100vh - 80px)',
+        'prop-minus-80': 'calc(100% - 80px)',
+      },
       colors: {
         'custom-blue': 'rgb(124, 235, 250)', // 定义一个名为 custom-blue 的颜色
         destructive: {

@@ -8,6 +8,7 @@
 @layer base {
   :root {
     --main-color: rgb(124, 235, 250);
+    --main-color1: rgb(53, 130, 177);
     --main-bg-color: rgba(65, 209, 235, 0.36);
     --pattern-color: rgba(46, 207, 213, 0.073);
     --blue-c: rgb(124, 235, 250);
@@ -20,7 +21,68 @@
     --warning: 45 85% 47%; /* HSL */
     --warning-foreground: 0 0% 10%;
   }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 5px !important ; /* 设置滚动条宽度 */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important; /* 滚动条的颜色 */
+    border-radius: 10px !important; /* 设置滚动条的圆角 */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #111113 !important; /* 滚动条轨道的颜色 */
+  }
+
+  .tab-trigger {
+    position: relative;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background-size: 200%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .tab-trigger:hover {
+    background-position: right center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+
+  /* Add a glowing effect when the tab is active */
+  .tab-trigger[data-state="active"] {
+    background: linear-gradient(135deg, var(--main-color), var(--main-color1));
+    background-size: 200%;
+    animation: glowing 1.5s infinite alternate;
+  }
+
+  /* Glowing animation */
+  @keyframes glowing {
+    0% {
+      box-shadow:
+        0 0 10px rgb(124, 235, 250),
+        0 0 15px rgb(53, 130, 177);
+    }
+    100% {
+      box-shadow:
+        0 0 20px rgb(124, 235, 250),
+        0 0 30px rgb(53, 130, 177);
+    }
+  }
+  /* Style the inactive tabs */
+  .tab-trigger:not([data-state="active"]) {
+    background: linear-gradient(135deg, #111113, #36363b);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
 }
+
 .Button_buttonVariants__x1s81q0 {
   /* background: #a2deff !important;
   

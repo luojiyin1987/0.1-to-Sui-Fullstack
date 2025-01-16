@@ -1,16 +1,9 @@
 
+
 import { Transaction } from "@mysten/sui/transactions";
 import { networkConfig, suiClient } from "../../networkConfig";
 import { State, User } from "@/type";
 
-export const queryInfo = async (profileID: string) => {
-    const info = await suiClient.getObject({
-        id: profileID,
-        options: { showContent: true }
-    })
-    console.log(info)
-    return info?.data?.content?.fields
-}
 
 export const createProfileTx = async (
     name: string,
@@ -39,11 +32,35 @@ export const queryState = async () => {
     const state: State = {
         users: []
     }
-    console.log(events.data)
     events.data.map((event) => {
         const user = event.parsedJson as User;
         state.users.push(user);
     })
-
     return state;
+}
+
+//query UserInfo
+export const getUserInfo = async (profileID: string) => {
+    try {
+        const objRes = await suiClient.getObject({
+            id: profileID,
+            options: {
+                showContent: true
+            }
+        });
+        if (objRes.data?.content?.dataType === "moveObject") {
+            const fields = objRes.data.content.fields as {
+                name: string;
+                description: string;
+            };
+            return {
+                name: fields.name,
+                description: fields.description
+            };
+        }
+        return null;
+    } catch (error) {
+        console.error("Error fetching user details:", error);
+        return null;
+    }
 }

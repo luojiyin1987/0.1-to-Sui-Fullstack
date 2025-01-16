@@ -28,30 +28,41 @@
 
 - [x] 第一周:
     ![周一记录截图](./images/first_move_study.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![周一截图](./images/week2_zhibo.png)
+- [x] 第二周:![周三截图](./images/week2_zb0108.png)
+- [x] 第二周:![周四截图](./images/week2_zb0109.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [] 第一周:![学习记录截图](./images/你的图片地址)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/week2_question.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
 
+第一周：
 - [x] 第一篇笔记:https://blog.csdn.net/qq_46151595/article/details/144876638?sharetype=blogdetail&sharerId=144876638&sharerefer=PC&sharesource=qq_46151595&spm=1011.2480.3001.8118
 - [x] 第二篇笔记:https://juejin.cn/post/7455123456071942163
-- [] 第三篇笔记
-- [] 第四篇笔记
+第二周：
+- [x] 第三篇笔记:https://juejin.cn/post/7456409369465143330
+- [x] 第四篇笔记:https://juejin.cn/post/7457065893299552267
+- [x] 第五篇笔记: https://juejin.cn/post/7457816281348341760
+- [x] 第六篇笔记: https://juejin.cn/post/7458595414150168591
+- [x] 第七篇笔记: https://juejin.cn/post/7458595414150184975
 
 ## 对外输出学习笔记
-
+第一周：
 - [x] 第一篇笔记【[Sui Move 前端共学（笔记一）](https://blog.csdn.net/qq_46151595/article/details/144876638?sharetype=blogdetail&sharerId=144876638&sharerefer=PC&sharesource=qq_46151595&spm=1011.2480.3001.8118)】
 - [x] 第二篇笔记【[Sui Move 前端共学（笔记二）-ref表单域](https://juejin.cn/post/7455123456071942163)
-- [] 第三篇笔记【学习笔记链接】
-- [] 第四篇笔记【学习笔记链接】
+第二周：
+- [x] 第三篇笔记【[Sui Move 前端共学笔记（三）](https://juejin.cn/post/7456409369465143330)】
+- [x] 第四篇笔记【[Sui Move 前端共学笔记（四）-状态提升(中间人通信)](https://juejin.cn/post/7457065893299552267)】
+- [x] 第五篇笔记【[Sui Move前端共学笔记(五)-订阅发布者模式](https://juejin.cn/post/7457816281348341760)】
+- [x] 第六篇笔记【[Sui Move 前端共学笔记(六)-Context](https://juejin.cn/post/7458595414150168591)】
+- [x] 第七篇笔记【[Sui Move 前端共学笔记（七）-slot(插槽)](https://juejin.cn/post/7458595414150184975)】
 
 ## 在HOH社区公众号发布自己的技术文章
 

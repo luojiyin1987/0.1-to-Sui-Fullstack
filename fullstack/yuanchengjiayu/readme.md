@@ -8,7 +8,7 @@
 
 ## 作业
 - [√] 第一周:
-- [] 第二周:
+- [√] 第二周:
 - [] 第三周:
 - [] 第四周:
 
@@ -25,29 +25,29 @@
 ## 每周课程学习
 
 - [√] 第一周:![学习记录截图](./images/one_week.jpg)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [√] 第二周:![学习记录截图](./images/tow_week.jpg)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [√] 第一周:![学习记录截图](./images/one_week.jpg)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [√] 第二周:![学习记录截图](./images/tow_week.jpg)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
 
-- [] 第一篇笔记
-- [] 第二篇笔记
-- [] 第三篇笔记
+- [√] 第一篇笔记(https://learnblockchain.cn/article/10550)
+- [√] 第二篇笔记(https://learnblockchain.cn/article/10573)
+- [√] 第三篇笔记(https://learnblockchain.cn/article/10587)
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
-- [] 第一篇笔记【学习笔记链接】
-- [] 第二篇笔记【学习笔记链接】
-- [] 第三篇笔记【学习笔记链接】
+- [√] 第一篇笔记【 https://learnblockchain.cn/article/10550 】
+- [√] 第二篇笔记【 https://learnblockchain.cn/article/10573 】
+- [√] 第三篇笔记【(https://learnblockchain.cn/article/10587)】
 - [] 第四篇笔记【学习笔记链接】
 
 ## 在HOH社区公众号发布自己的技术文章

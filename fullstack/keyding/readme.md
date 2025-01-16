@@ -30,10 +30,13 @@
 ## 参加直播答疑
 
 - [x] 第一周:
-	<img width="600" src="./images/live-01.png" alt="学习记录截图 - 01" />
-	<img width="600" src="./images/live-02.png" alt="学习记录截图 - 02" />
-- [] 第二周:![学习记录截图](./images/你的图片地址)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+	- <img width="600" src="./images/live-01.png" alt="学习记录截图 - 01" />
+	- <img width="600" src="./images/live-02.png" alt="学习记录截图 - 02" />
+- [x] 第二周:
+	- <img width="600" src="./images/live-week2-02.png" alt="直播记录" />
+	- <img width="600" src="./images/live-week2-03.png" alt="直播记录" />
+- [] 第三周:
+	- <img width="600" src="./images/live-week3-01.png" alt="直播记录" />
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记

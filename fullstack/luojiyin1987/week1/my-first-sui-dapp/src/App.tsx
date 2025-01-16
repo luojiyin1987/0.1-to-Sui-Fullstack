@@ -15,7 +15,7 @@ function App() {
         }}
       >
         <Box>
-          <Heading>dApp Starter Template</Heading>
+          <Heading>gtihubid: luojiyin1987</Heading>
         </Box>
 
         <Box>

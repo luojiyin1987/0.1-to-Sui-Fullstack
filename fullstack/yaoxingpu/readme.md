@@ -2,7 +2,7 @@
  * @Author: yaoxingpu yaoxpu@163.com
  * @Date: 2024-12-31 10:39:02
  * @LastEditors: yaoxingpu yaoxpu@163.com
- * @LastEditTime: 2025-01-04 23:19:23
+ * @LastEditTime: 2025-01-10 21:23:29
  * @FilePath: /0.1-to-Sui-Fullstack/fullstack/yaoxingpu/readme.md
  * @Description: 
  * 
@@ -43,7 +43,7 @@
 ## 参加直播答疑
 
 - [x] 第一周:![学习记录截图](./images/Snipaste_2025-01-02_19-57-50.jpg)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图1](./images/Snipaste_2025-01-06_19-55-33.jpg) ![学习记录截图2](./images/Snipaste_2025-01-08_20-00-43.jpg) ![学习记录截图2](./images/Snipaste_2025-01-09_20-15-27.jpg)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
